@@ -1,0 +1,13 @@
+.styledFont {
+    color: #33cc33; 
+ }
+ #styledImage {
+    box-sizing: border-box;
+    box-shadow: #ff9900;
+    border: 10px solid #ff9900
+ }
+ #centered-text {
+    text-align: center;
+    font-size: 1in;
+    color: #33cc33;
+ }
