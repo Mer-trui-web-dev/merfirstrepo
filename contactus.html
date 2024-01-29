@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us Form</title>
+<style>
+    input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 25px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;  
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    input[type=submit] {
+        background-color: #dfbf9f;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color: #f9f2ec;
+        padding: 20px;
+    }
+
+</style>
+</head>
+<body>
+    <div>
+    <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="apikey" value="94fc092c-06dc-458c-83fc-d4a0d30835c9"> 
+    <input type="hidden" name="redirect" value="https://mer-trui-web-dev.github.io/merfirstrepo/">
+
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="firstname" placeholder="Your First Name"><br><br>
+
+        <label for="name">Last Name:</label>
+        <input type="text" id="name" name="lastname" placeholder="Your Last Name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email Address to Reach You"><br><br>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write me a message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+    </div>
+</body>
+</html>
